@@ -22,8 +22,14 @@
 ```
 passwd
 ```
+
 ## 5. Language, timezone, wifi
 ```
 sudo raspi-config
 ```
 
+## 6. ## system update
+```
+sudo apt-get update
+sudo apt-get dist-upgrade
+```
