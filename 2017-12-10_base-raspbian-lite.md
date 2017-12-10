@@ -17,5 +17,13 @@
   - edit [config.txt](https://www.raspberrypi.org/documentation/configuration/config-txt/README.md) file on SD card
   - https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
   - https://github.com/onibushacker/ponto/blob/master/rafa.config.txt#L21-L22 e https://github.com/onibushacker/ponto/blob/master/rafa.config.txt#L14
-## 4. Wifi setup
-- https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
+
+## 4. Change password of user "pi"
+```
+passwd
+```
+## 5. Language, timezone, wifi
+```
+sudo raspi-config
+```
+
