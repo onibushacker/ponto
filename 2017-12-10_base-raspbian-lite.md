@@ -28,13 +28,21 @@ passwd
 sudo raspi-config
 ```
 
-## 6. ## system update
+## 6. system update
 ```
 sudo apt-get update
 sudo apt-get dist-upgrade
 ```
 
-## 7. Xorg + i3wm
+## 7. xorg, stterm, fish, i3
 ```
-sudo apt-get install xserver-xorg xserver-xorg-video-fbdev xinit
+sudo apt-get install xserver-xorg xinit stterm fish i3
 ```
+
+```
+vim .config/i3/config 
+```
+
+    bindsym $mod+Return exec "stterm -e fish"
+    bindsym $mod+Shift+e exec "i3-msg exit"
+
