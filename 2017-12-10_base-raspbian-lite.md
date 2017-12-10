@@ -16,3 +16,6 @@
 - Solution: disable overscan
   - edit [config.txt](https://www.raspberrypi.org/documentation/configuration/config-txt/README.md) file on SD card
   - https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
+
+## 4. Wifi setup
+- https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
