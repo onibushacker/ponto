@@ -13,9 +13,9 @@
 ## 3. Troubleshoot monitor offset problem
 - LG Flatron Wide. VGA -> HDMI
 - Problem: screen offset to the left
-- Solution: disable overscan
+- Solution: disable overscan, or adjust screen overscan left + dimensions
   - edit [config.txt](https://www.raspberrypi.org/documentation/configuration/config-txt/README.md) file on SD card
   - https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
-
+  - https://github.com/onibushacker/ponto/blob/master/rafa.config.txt#L21-L22 e https://github.com/onibushacker/ponto/blob/master/rafa.config.txt#L14
 ## 4. Wifi setup
 - https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
