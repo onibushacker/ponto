@@ -33,3 +33,8 @@ sudo raspi-config
 sudo apt-get update
 sudo apt-get dist-upgrade
 ```
+
+## 7. Xorg + i3wm
+```
+sudo apt-get install xserver-xorg xserver-xorg-video-fbdev xinit
+```
