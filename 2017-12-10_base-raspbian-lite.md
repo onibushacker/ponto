@@ -46,3 +46,10 @@ vim .config/i3/config
     bindsym $mod+Return exec "stterm -e fish"
     bindsym $mod+Shift+e exec "i3-msg exit"
 
+## 8. firefox
+```
+sudo apt-get install firefox-esr
+```
+
+## 9. xfce (windows manager mais voltado a mouse)
+
